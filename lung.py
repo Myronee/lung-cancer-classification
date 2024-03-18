@@ -103,7 +103,7 @@ st.write(df_input)
 
 # fix data and buid model
 
-df = pd.read_csv('../data_folder/survey_lung_cancer.csv')
+df = pd.read_csv('./survey_lung_cancer.csv')
 df.drop_duplicates(inplace=True)
 y = df['LUNG_CANCER']
 
